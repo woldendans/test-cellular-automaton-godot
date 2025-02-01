@@ -2,6 +2,8 @@
 
 This project is a simple Godot implementation of a Reaction-Diffusion cellular automaton using compute shaders.
 
+https://github.com/user-attachments/assets/04a6073c-f73f-4106-afbe-f8d1609a2890
+
 ## The render node parameters
 
 * `Shader File` should be set at the shader's `.glsl` file. It exists to ease testing other automaton using the same interface. The `.glsl` file must be edited in an external editor as of Godot 4.4-beta2.
