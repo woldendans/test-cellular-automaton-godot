@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://x7ysdnye0305"
+path="res://.godot/imported/reaction-diffusion.glsl-3f86a5ed8d2db914f23f58e0589ebfd1.res"
+
+[deps]
+
+source_file="res://automaton/reaction-diffusion.glsl"
+dest_files=["res://.godot/imported/reaction-diffusion.glsl-3f86a5ed8d2db914f23f58e0589ebfd1.res"]
+
+[params]
+

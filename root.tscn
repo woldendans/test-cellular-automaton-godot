@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bt1rfev3spiwe"]
+
+[ext_resource type="Script" uid="uid://bu5exwkce54o1" path="res://ReactionDiffusionAutomaton.gd" id="1_pyidc"]
+[ext_resource type="RDShaderFile" uid="uid://x7ysdnye0305" path="res://automaton/reaction-diffusion.glsl" id="2_pyidc"]
+
+[node name="Root" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+
+[node name="Render" type="Sprite2D" parent="."]
+centered = false
+script = ExtResource("1_pyidc")
+shader_file = ExtResource("2_pyidc")
+size = Vector2i(1024, 768)
