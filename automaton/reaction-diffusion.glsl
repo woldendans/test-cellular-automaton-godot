@@ -26,10 +26,6 @@ layout(set = 0, binding = 3, r8) restrict writeonly uniform image2D outputImage;
 #define F 0.005
 #define D 0.049
 
-float rand(vec2 co) {
-    return fract(sin(dot(co, vec2(12.9898, 78.233))) * 43758.5453);
-}
-
 // The code we want to execute in each invocation
 void main() {
     uint width = uint(parameters.p.x);
